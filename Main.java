@@ -78,7 +78,7 @@ public class Main {
         train.addCarriage(carriage2);
 
 
-        System.out.println("Детали поезда:");
+        System.out.println("Детали поезда:Опаздание на час");
         System.out.println("Название поезда: " + train.getName());
         System.out.println("Общая грузоподъемность: " + train.calculateTotalCargoCapacity());
         System.out.println("Общая вместимость пассажиров: " + train.calculateTotalPassengerCapacity());
